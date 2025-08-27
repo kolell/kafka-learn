@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Sync Producer",
+            "request": "launch",
+            "mainClass": "com.example.kafka.SyncProducerExample",
+            "projectName": "kafka-learn",
+            "classPaths": [
+                "${workspaceFolder}/target/classes"
+            ],
+            "args": [],
+            "vmArgs": "",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Debug Async Producer",
+            "request": "launch",
+            "mainClass": "com.example.kafka.AsyncProducerExample",
+            "projectName": "kafka-learn",
+            "classPaths": [
+                "${workspaceFolder}/target/classes"
+            ],
+            "args": [],
+            "vmArgs": "",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Debug Consumer",
+            "request": "launch",
+            "mainClass": "com.example.kafka.ConsumerExample",
+            "projectName": "kafka-learn",
+            "classPaths": [
+                "${workspaceFolder}/target/classes"
+            ],
+            "args": [],
+            "vmArgs": "",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Debug Sync vs Async Comparison",
+            "request": "launch",
+            "mainClass": "com.example.kafka.SyncVsAsyncComparison",
+            "projectName": "kafka-learn",
+            "classPaths": [
+                "${workspaceFolder}/target/classes"
+            ],
+            "args": [],
+            "vmArgs": "",
+            "console": "integratedTerminal",
+            "stopOnEntry": false
+        }
+    ]
+}
